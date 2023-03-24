@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 $(function() {
   // Get the settings form and listen for submission
   var settingsForm = $('#settings-form');

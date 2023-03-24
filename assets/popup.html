@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Scroll Widget</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/main.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Scroll Widget</h1>
-      <p>Use the settings below to adjust your window's scroll behavior.</p>
-      <form id="settings-form">
-        <div class="form-group">
-          <label for="scroll-speed">Scroll Speed</label>
-          <input type="number" name="scroll-speed" id="scroll-speed" min="1" max="10" value="5">
-        </div>
-        <div class="form-group">
-          <label for="scroll-direction">Scroll Direction</label>
-          <select name="scroll-direction" id="scroll-direction">
-            <option value="up">Up</option>
-            <option value="down">Down</option>
-            <option value="left">Left</option>
-            <option value="right">Right</option>
-          </select>
-        </div>
-        <button type="submit">Save</button>
-      </form>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Hue Widget</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hue Widget</h1>
+    <form id="settings-form">
+      <div class="form-group">
+        <label for="hue-slider">Hue:</label>
+        <input type="range" id="hue-slider" name="hue" min="0" max="360" value="0">
+      </div>
+      <button type="submit">Apply</button>
+    </form>
+  </div>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>

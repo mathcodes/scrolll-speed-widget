@@ -1,16 +1,16 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Scroll Widget",
   "version": "1.0",
   "description": "A widget that lets you set the scroll speed and direction of your window",
   "icons": {
-    "16": "assets/icon-16.png",
-    "32": "assets/icon-32.png",
-    "48": "assets/icon-48.png",
-    "128": "assets/icon-128.png"
+    "16": "assets/jCircle16x16.png",
+    "32": "assets/jCircle32x32.png",
+    "48": "assets/jCircle48x48.png",
+    "128": "assets/jCircle128x128.png"
   },
-  "browser_action": {
-    "default_icon": "assets/icon-32.png",
+  "action": {
+    "default_icon": "assets/jCircle32x32.png",
     "default_title": "Scroll Widget",
     "default_popup": "popup.html"
   },
