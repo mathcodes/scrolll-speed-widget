@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scroll Widget</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Scroll Widget</h1>
+      <p>Use the settings below to adjust your window's scroll behavior.</p>
+      <form id="settings-form">
+        <div class="form-group">
+          <label for="scroll-speed">Scroll Speed</label>
+          <input type="number" name="scroll-speed" id="scroll-speed" min="1" max="10" value="5">
+        </div>
+        <div class="form-group">
+          <label for="scroll-direction">Scroll Direction</label>
+          <select name="scroll-direction" id="scroll-direction">
+            <option value="up">Up</option>
+            <option value="down">Down</option>
+            <option value="left">Left</option>
+            <option value="right">Right</option>
+          </select>
+        </div>
+        <button type="submit">Save</button>
+      </form>
+    </div>
+  </body>
+</html>
